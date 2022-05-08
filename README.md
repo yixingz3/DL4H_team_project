@@ -15,3 +15,17 @@
 
 ### Final Submission
 - To be completed
+
+### ML Code Completeness Checklist
+- Specification of dependencies
+    - Need to move the dataset into Google Drive
+    - TODO - add more instructions
+- Training Code
+    - Included in the .ipynb file
+- Evaluation code
+    - Included in the .ipynb file
+- Pre-trained models
+    - Included in the .ipynb file
+    - TODO - check if we have it
+- README file including table of results accompanied by precise commands to run/produce those results
+    - The results are included in the .ipynb file with executing the code blocks sequentially from the top to the bottom
