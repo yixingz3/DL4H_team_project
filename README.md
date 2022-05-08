@@ -14,18 +14,30 @@
 - Please refer to our [draft report](https://github.com/yixingz3/DL4H_team_project/blob/main/CS598DL4H_project_template_2022Spring_team64.pdf) for more detials 
 
 ### Final Submission
-- To be completed
+- [final report](To be completed)
+
+### Repo structure
+- mergeData.py
+    - Failed attempt to extract symptoms from MIMIC-III data set
+- TF-IDF+Bi-LSTM.ipynb
+    - Our implementation of the proposed model
+- Glove+Bi-LSTM.ipynb
+    - Our implementation of the baseline models - Glove + Bi-LSTM
+- WordVec+Bi-LSTM.ipynb
+    - Our implementation of the baseline models WordVec + Bi-LSTM
+- Embedding.ipynb
+    - Our implementation of the baseline models - Embedding
 
 ### ML Code Completeness Checklist
 - Specification of dependencies
     - Need to move the dataset into Google Drive
     - TODO - add more instructions
 - Training Code
-    - Included in the .ipynb file
+    - Included in the model specific .ipynb file
 - Evaluation code
-    - Included in the .ipynb file
+    - Included in the model specific .ipynb file
 - Pre-trained models
-    - Included in the .ipynb file
+    - Included in the model specific .ipynb file
     - TODO - check if we have it
 - README file including table of results accompanied by precise commands to run/produce those results
     - The results are included in the .ipynb file with executing the code blocks sequentially from the top to the bottom
