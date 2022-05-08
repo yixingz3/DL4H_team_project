@@ -38,7 +38,7 @@ def GetSymptoms():
         except IOError:
             print("I/O error")
 
-def mergeCols():
+def mergeColsAllSeq():
     filteredEventNotes = pd.read_csv('noteEventsResult.csv')
     disgnosesWithICD = pd.read_csv('data/DIAGNOSES_ICD.csv')
 
@@ -48,12 +48,28 @@ def mergeCols():
 
     df = pd.DataFrame(mergedData)
 
+    ''' 
+    the processed sample dataset can be found in the google drive
+    with only @illinois access to protect the data
+    '''
+    outputFile = 'mergedDatasetAllSeq.csv'
+    df.to_csv(outputFile, encoding='utf-8', index = False)
+
+def mergeColsFirstSeq():
+    filteredEventNotes = pd.read_csv('noteEventsResult.csv')
+    disgnosesWithICD = pd.read_csv('data/DIAGNOSES_ICD.csv')
+
+    mergedData = pd.merge(filteredEventNotes, disgnosesWithICD[disgnosesWithICD["SEQ_NUM"] == 1], 
+                    on=['SUBJECT_ID', 'HADM_ID'], 
+                    how='inner')
+
+    df = pd.DataFrame(mergedData)
 
     ''' 
     the processed sample dataset can be found in the google drive
     with only @illinois access to protect the data
     '''
-    outputFile = 'mergedDataset.csv'
+    outputFile = 'mergedDatasetFirstSeq.csv'
     df.to_csv(outputFile, encoding='utf-8', index = False)
 
 '''
@@ -64,4 +80,5 @@ training and evaluating the model
 '''
 
 # GetSymptoms()
-# mergeCols()
+# mergeColsAllSeq()
+# mergeColsFirstSeq()
