@@ -16,37 +16,26 @@
 ### Final Submission
 - [final report](To be completed)
 
-### IMDB dataset
-- To be completed - add instruction on how to mount this data to the script and utilize it with Colab
-
 ### Repo structure
 - [mergeData.py](https://github.com/yixingz3/DL4H_team_project/blob/main/mergeData.py)
     - Failed attempt to extract symptoms from MIMIC-III data set
-- [TF-IDF+Bi-LSTM.ipynb](https://github.com/yixingz3/DL4H_team_project/blob/main/TF-IDF%2BBi-LSTM.ipynb)
-    - Our implementation of the proposed model
-- Glove+Bi-LSTM.ipynb
-    - Our implementation of the baseline models - Glove + Bi-LSTM
-- WordVec+Bi-LSTM.ipynb
-    - Our implementation of the baseline models WordVec + Bi-LSTM
-- Embedding.ipynb
-    - Our implementation of the baseline models - Embedding
+- [DL4H_project.ipynb](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb)
+    - Our implementation of the proposed and baseline models
 
 ### ML Code Completeness Checklist
-- Specification of dependencies
-    - Need to move the dataset into Google Drive
-    - Environment is setup with Google Colab - no need any other specific dependency
-    - TODO - add more instructions
 - Data download/uss instruction
-    - The dataset can be accessed and downloaded in this [google drive with @illinois credentials](https://drive.google.com/drive/folders/1_p4CNHAMX1lt7tltUyxu0U6N3rptSqK8?usp=sharing)
+    - The dataset can be accessed and downloaded from the repo [IMDB dataset](https://github.com/yixingz3/DL4H_team_project/blob/main/aclImdb_v1.tar.gz)
+- Specification of dependencies
+    - Need to move the extracted dataset from above into your Google Drive under directory "/content/drive/MyDrive/aclImdb"
+    - Environment is setup with Google Colab - no need any other specific dependency, just run through code blocks in sequential order
 - Training Code
-    - Included in the model specific .ipynb file
+    - Included in the models implementation .ipynb file
 - Evaluation code
-    - Included in the model specific .ipynb file
+    - Included in the models implementation .ipynb file
 - Pre-trained models
     - Not included
-    - TODO - check if we have it
 - README file including table of results accompanied by precise commands to run/produce those results
-    - The result of each model is included in the model specific .ipynb file
+    - The result of each model is also included in the model specific .ipynb file
     - To execute the script, open file with Google Colab and execute the code blocks sequentially from the top to the bottom
 - Table of Results
     - TODO
