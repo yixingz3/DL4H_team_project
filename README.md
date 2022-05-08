@@ -16,10 +16,13 @@
 ### Final Submission
 - [final report](To be completed)
 
+### IMDB dataset
+- To be completed - add instruction on how to mount this data to the script and utilize it with Colab
+
 ### Repo structure
-- mergeData.py
+- [mergeData.py](https://github.com/yixingz3/DL4H_team_project/blob/main/mergeData.py)
     - Failed attempt to extract symptoms from MIMIC-III data set
-- TF-IDF+Bi-LSTM.ipynb
+- [TF-IDF+Bi-LSTM.ipynb](https://github.com/yixingz3/DL4H_team_project/blob/main/TF-IDF%2BBi-LSTM.ipynb)
     - Our implementation of the proposed model
 - Glove+Bi-LSTM.ipynb
     - Our implementation of the baseline models - Glove + Bi-LSTM
