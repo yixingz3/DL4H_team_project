@@ -29,7 +29,11 @@
     - [mergeData.py](https://github.com/yixingz3/DL4H_team_project/blob/main/mergeData.py)
           - Failed attempt to extract symptoms from MIMIC-III data set
 
-### ML Code Completeness Checklist
+### Code Completeness Checklist
+- Citation of the original paper
+    - Donglin Guo, Min Li, Ying Yu, Yaohang Li, Guihua Duan, Fang-Xiang Wu, and Jianxin Wang. 2018. Disease inference with symptom extraction and bidirectional recurrent neural network. In 2018 IEEE International Conference on Bioinformatics and Biomedicine (BIBM), pages 864–868. IEEE.
+- Original paper's repo
+    - Not available
 - Data download/uss instruction
     - The data set can be accessed and downloaded from the repo [IMDB dataset](https://github.com/yixingz3/DL4H_team_project/blob/main/aclImdb_v1.tar.gz)
 - Specification of dependencies
@@ -43,9 +47,6 @@
     - Included in the [model implementation](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb) file
 - Pre-trained models
     - Not included
-- README file including table of results accompanied by precise commands to run/produce those results
-    - The result of each model is also included in the [model implementation](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb) file
-    - To execute the script, open file with Google Colab and execute the code blocks sequentially from the top to the bottom
 - Table of Results
 
 | Model            | Loss   | Train Acc | Test Acc | Runtime  |
@@ -54,6 +55,7 @@
 | Glove + Bi-LSTM  | 0.1836 | 0.6814    | 0.6776   | ~10 Mins |
 | WordVec+ Bi-LSTM | 0.1528 | 0.7929    | 0.8042   | ~10 Mins |
 | Embedding        | 0.1429 | 0.8331    | 0.7682   | ~10 Mins |
+
 
 
 
