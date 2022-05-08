@@ -16,6 +16,9 @@
 ### Final Submission
 - [final report](To be completed)
 
+### Presentation Slides
+- [Presentation](To be completed)
+
 ### Code and Data
 - Model implementation
     - [DL4H_project.ipynb](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb)
