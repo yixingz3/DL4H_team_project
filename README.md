@@ -34,13 +34,22 @@
 ### ML Code Completeness Checklist
 - Specification of dependencies
     - Need to move the dataset into Google Drive
+    - Environment is setup with Google Colab - no need any other specific dependency
     - TODO - add more instructions
+- Data download/uss instruction
+    - The dataset can be accessed and downloaded in this [google drive with @illinois credentials](https://drive.google.com/drive/folders/1_p4CNHAMX1lt7tltUyxu0U6N3rptSqK8?usp=sharing)
 - Training Code
     - Included in the model specific .ipynb file
 - Evaluation code
     - Included in the model specific .ipynb file
 - Pre-trained models
-    - Included in the model specific .ipynb file
+    - Not included
     - TODO - check if we have it
 - README file including table of results accompanied by precise commands to run/produce those results
-    - The results are included in the .ipynb file with executing the code blocks sequentially from the top to the bottom
+    - The result of each model is included in the model specific .ipynb file
+    - To execute the script, open file with Google Colab and execute the code blocks sequentially from the top to the bottom
+- Table of Results
+    - TODO
+
+
+
