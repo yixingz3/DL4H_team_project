@@ -16,26 +16,32 @@
 ### Final Submission
 - [final report](To be completed)
 
-### Repo structure
-- [mergeData.py](https://github.com/yixingz3/DL4H_team_project/blob/main/mergeData.py)
-    - Failed attempt to extract symptoms from MIMIC-III data set
-- [DL4H_project.ipynb](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb)
-    - Our implementation of the proposed and baseline models
+### Code and Data
+- Model implementation
+    - [DL4H_project.ipynb](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb)
+          - Our implementation of the proposed and baseline models
+- Data set
+    - [IMDB dataset](https://github.com/yixingz3/DL4H_team_project/blob/main/aclImdb_v1.tar.gz)
+- Data processing
+    - [mergeData.py](https://github.com/yixingz3/DL4H_team_project/blob/main/mergeData.py)
+          - Failed attempt to extract symptoms from MIMIC-III data set
 
 ### ML Code Completeness Checklist
 - Data download/uss instruction
-    - The dataset can be accessed and downloaded from the repo [IMDB dataset](https://github.com/yixingz3/DL4H_team_project/blob/main/aclImdb_v1.tar.gz)
+    - The data set can be accessed and downloaded from the repo [IMDB dataset](https://github.com/yixingz3/DL4H_team_project/blob/main/aclImdb_v1.tar.gz)
 - Specification of dependencies
     - Need to move the extracted dataset from above into your Google Drive under directory "/content/drive/MyDrive/aclImdb"
-    - Environment is setup with Google Colab - no need any other specific dependency, just run through code blocks in sequential order
+    - Environment is setup with Google Colab
+          - no need any other specific dependency
+          - just run through code blocks in sequential order
 - Training Code
-    - Included in the models implementation .ipynb file
+    - Included in the [model implementation](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb) file
 - Evaluation code
-    - Included in the models implementation .ipynb file
+    - Included in the [model implementation](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb) file
 - Pre-trained models
     - Not included
 - README file including table of results accompanied by precise commands to run/produce those results
-    - The result of each model is also included in the model specific .ipynb file
+    - The result of each model is also included in the [model implementation](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb) file
     - To execute the script, open file with Google Colab and execute the code blocks sequentially from the top to the bottom
 - Table of Results
     - TODO
