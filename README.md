@@ -44,7 +44,13 @@
     - The result of each model is also included in the [model implementation](https://github.com/yixingz3/DL4H_team_project/blob/main/DL4H_project.ipynb) file
     - To execute the script, open file with Google Colab and execute the code blocks sequentially from the top to the bottom
 - Table of Results
-    - TODO
+
+| Model            | Loss   | Train Acc | Test Acc | Runtime  |
+|------------------|--------|-----------|----------|----------|
+| TF-IDF + Bi-LSTM | 0.0738 | 0.9108    | 0.8345   | ~10 Mins |
+| Glove + Bi-LSTM  | 0.1836 | 0.6814    | 0.6776   | ~10 Mins |
+| WordVec+ Bi-LSTM | 0.1528 | 0.7929    | 0.8042   | ~10 Mins |
+| Embedding        | 0.1429 | 0.8331    | 0.7682   | ~10 Mins |
 
 
 
