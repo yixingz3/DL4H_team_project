@@ -16,8 +16,9 @@
 ### Final Submission
 - [final report](https://github.com/yixingz3/DL4H_team_project/blob/main/CS598DL4H_project_2022Spring_team64_final_report.pdf)
 
-### Presentation Slides
-- [Presentation](https://github.com/yixingz3/DL4H_team_project/blob/main/Presentation_Slides.pdf)
+### Presentation
+- [Slides](https://github.com/yixingz3/DL4H_team_project/blob/main/Presentation_Slides.pdf)
+- [Video](https://www.youtube.com/watch?v=YFTlGVSHt0U)
 
 ### Code and Data
 - Model implementation
@@ -49,6 +50,8 @@
     - Not included
 - Table of Results
 
+#### Mean of 10 Epochs
+
 | Model            | Loss   | Train Acc | Test Acc | Runtime  |
 |------------------|--------|-----------|----------|----------|
 | TF-IDF + Bi-LSTM | 0.0738 | 0.9108    | 0.8345   | ~10 Mins |
@@ -56,6 +59,14 @@
 | WordVec+ Bi-LSTM | 0.1528 | 0.7929    | 0.8042   | ~10 Mins |
 | Embedding        | 0.1429 | 0.8331    | 0.7682   | ~10 Mins |
 
+#### Last Epoch
+
+| Model     | Loss   | Train Acc | Test Acc |
+|-----------|--------|-----------|----------|
+| TF-IDF    | 0.0208 | 0.917     | 0.827    |
+| Glove     | 0.0363 | 0.843     | 0.840    |
+| WordVec   | 0.0285 | 0.885     | 0.881    |
+| Embedding | 0.0128 | 0.955     | 0.811    |
 
 
 
