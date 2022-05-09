@@ -17,7 +17,7 @@
 - [final report](To be completed)
 
 ### Presentation Slides
-- [Presentation](To be completed)
+- [Presentation](https://github.com/yixingz3/DL4H_team_project/blob/main/Presentation_Slides.pdf)
 
 ### Code and Data
 - Model implementation
