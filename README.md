@@ -14,10 +14,10 @@
 - Please refer to our [draft report](https://github.com/yixingz3/DL4H_team_project/blob/main/CS598DL4H_project_template_2022Spring_team64.pdf) for more detials 
 
 ### Final Submission
-- [final report](To be completed)
+- [final report](https://github.com/yixingz3/DL4H_team_project/blob/main/CS598DL4H_project_2022Spring_team64_final_report.pdf)
 
 ### Presentation Slides
-- [Presentation](To be completed)
+- [Presentation](https://github.com/yixingz3/DL4H_team_project/blob/main/Presentation_Slides.pdf)
 
 ### Code and Data
 - Model implementation
